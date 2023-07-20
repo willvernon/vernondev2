@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import avatar from '@public/static/avatar.png'
 import dc from '@public/static/dc-logo.png'
-import Badge from '@components/Badge'
+import Badge from '@components/badge'
 import ArrowIcon from '@components/icons/ArrowIcon'
 import CardLink from '@components/CardLink'
 import BigText from '@components/BigText'
@@ -15,6 +15,7 @@ import demo from '@public/projects/Demo.png'
 import NHASH from '@public/projects/NHASH.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import dennys from '@public/projects/dennys/hero.png'
+
 
 import { motion } from 'framer-motion'
 import { Suspense } from 'react'

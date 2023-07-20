@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import resume from '../public/static/Resume.png'
-import avatar from '../public/static/avatar.png'
+import resume from '@public/static/Resume.png'
+import avatar from '@public/static/avatar.png'
 
 export const metadata: Metadata = {
   title: 'Uses',

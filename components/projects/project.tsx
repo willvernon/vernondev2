@@ -1,12 +1,12 @@
 'use client'
-import useSWR from 'swr'
+// import useSWR from 'swr'
 import MetricCard from '@components/projects/Card'
 
 import demo from '@public/projects/Demo.png'
 import bblgx from '@public/projects/bblgx.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import scientia from '@public/projects/scientia.png'
-import linen from '@public/projects/linen.png'
+// import linen from '@public/projects/linen.png'
 
 export default function ProjectsCard() {
 	const link = '..'

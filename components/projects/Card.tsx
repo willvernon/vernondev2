@@ -1,7 +1,7 @@
 'use client'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import cn from 'classames'
+// import cn from 'classames'
 import Image from 'next/image'
 
 // function NavItem({ href, text }) {

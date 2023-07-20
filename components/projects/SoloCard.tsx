@@ -1,6 +1,5 @@
 'use client'
-import { useRouter } from 'next/router'
-import NextLink from 'next/link'
+
 import Image from 'next/image'
 
 // function NavItem({ href, text }) {
