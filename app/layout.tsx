@@ -1,6 +1,8 @@
 import './global.css'
 import clsx from 'clsx'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
+
 import localFont from 'next/font/local'
 import Navbar from '@components/navbar'
 
@@ -71,7 +73,9 @@ export default function RootLayout({
 				<main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
 					<Navbar />
 					{children}
+					<Analytics />
 				</main>
+				
 			</body>
 		</html>
 	)
