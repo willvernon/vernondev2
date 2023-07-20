@@ -31,7 +31,7 @@ function AboutMeGrid() {
               </>
             )}
           </Ticker> */}
-					<p className="text-sm">Digital Craftsman & Sports Fan </p>
+					<p className="text-sm">Digital Craftsman</p>
 				</div>
 			</div>
 			{/* Computer Image Box */}
@@ -82,10 +82,10 @@ function AboutMeGrid() {
 			</div>
 			{/* Tilted Blocks My Projects */}
 			<div className="row-start-2 row-span-1 col-start-5 col-span-2 m-1 rounded-xl bg-transparent h-25 w-25 text-center">
-				<div className="w-auto h-14 bg-orange-400 rounded-xl text-left pl-3 pt-3 font-mono text-xs text-slate-700 font-black">
+				<div className="w-auto h-14 bg-[#e64c33] rounded-xl text-left pl-3 pt-3 font-mono text-xs text-slate-700 ">
 					<Link
 						href="/projects"
-						className="flex items-center mt-1 text-slate-800  rounded-lg hover:text-gray-800  transition-all h-6"
+						className="flex items-center mt-1 text-slate-800  rounded-lg hover:text-gray-800  transition-all h-6 font-black"
 					>
 						<>
 							{'My'}
@@ -112,9 +112,9 @@ function AboutMeGrid() {
 				</div>
 				<div className="w-auto h-14 bg-white rounded-xl rotate-12 -translate-x-2 shadow-sm shadow-black text-center">
 					{' '}
-					<p className="text-slate-500 font-mono text-center pt-4 font-black text-lg tracking-widest">
+					<h3 className="text-slate-800 text-center pt-4 font-black text-lg tracking-widest">
 						VernonDev
-					</p>
+					</h3>
 				</div>
 			</div>
 			{/* Box 5 */}
@@ -150,28 +150,30 @@ function AboutMeGrid() {
 			<div className="row-start-3 row-span-1 col-start-5 col-span-4 m-1 rounded-xl bg-white h-25 w-25 text-left">
 				<div className="flex text-black m-3 ml-10">
 					<ul className="">
-						<h2 className="text-lg pb-2">Links</h2>
+						<h2 className="text-xl font-black pb-1 text-[#e64c33]">
+							Links
+						</h2>
 						{/* <li>
                 Twitter: <a href="https://twitter.com/">@---</a>
               </li> */}
-						<li className="py-1">
+						<li className="py-1 font-black tracking-wider">
 							GitHub:{' '}
 							<a href="https://github.com/willvernon">@willvernon</a>
 						</li>
-						<li className="py-1">
+						<li className="py-1 font-black tracking-wider">
 							Website:{' '}
 							<Link href="https://vernondev.com">vernondev.com</Link>
 						</li>
-						<li className="py-1">
+						<li className="py-1 font-black tracking-wider">
 							LinkedIn:{' '}
 							<a href="https://www.linkedin.com/in/wmvernon/">
 								/wmvernon
 							</a>
 						</li>
-						<li className="py-1">
+						<li className="py-1 font-black tracking-wider">
 							ENS:{' '}
 							<a href="https://app.ens.domains/name/vernondev.eth/details">
-								Vernnondev.eth
+								Vernondev.eth
 							</a>
 						</li>
 					</ul>

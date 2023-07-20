@@ -9,7 +9,7 @@ import full from '@public/projects/boswells/full.png';
 
 export default function Project4() {
   return (
-		<div className="mx-auto mb-16 flex w-full max-w-2xl flex-col items-start justify-center">
+		<div className="mx-auto mb-6 flex w-full max-w-2xl flex-col items-start justify-center">
 			<h1 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">
 				Boswell&apos;s Golf - Golf Cart Dealership
 			</h1>
@@ -23,7 +23,7 @@ export default function Project4() {
 					alt="/"
 				/>
 			</div>
-			<div className="prose mb-8 leading-6 dark:prose-dark">
+			<div className="prose mb-8 leading-relaxed dark:prose-dark">
 				<div className="flex">
 					<ul>
 						<h2 className="text-[#e64c33]">Tools Used</h2>

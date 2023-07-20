@@ -3,6 +3,7 @@ import Image from 'next/image'
 import resume from 'public/static/Resume.png'
 import Link from 'next/link'
 import avatar from '../public/MeMoji-Mac.png'
+import DownloadButton from '@components/ResumeDownload'
 
 export default function Uses() {
 	return (
@@ -15,17 +16,18 @@ export default function Uses() {
 				height={1546 / 2}
 				priority
 			/>
+			
 			<br />
 			<br />
-			<h1 className="mb-4 text-3xl font-bold tracking-tight text-slate-400  md:text-5xl">
+			<h1 className="mb-4 text-3xl font-bold tracking-tight text-[#e64c33]  md:text-5xl">
 				My Gear
 			</h1>
-			<p className="mt-2 mb-8 text-gray-300 ">
+			<h4 className="mt-2 text-lg mb-8 text-gray-300 ">
 				Here&apos;s what tech I&apos;m currently using for coding, work, and
 				life in general. It changes and adapts widely based on learning new
 				tech and my love for learning new things to maximize quality of life
 				and productivity.
-			</p>
+			</h4>
 
 			<Image
 				className="rounded-lg"
@@ -36,7 +38,7 @@ export default function Uses() {
 				priority
 			/>
 			<div className="prose w-full dark:prose-dark">
-				<h2 id="computer-office" className="text-slate-400">
+				<h2 id="computer-office" className="text-[#e64c33] font-bold">
 					Computer / Office
 				</h2>
 				<ul className="text-2xl leading-relaxed">
@@ -50,7 +52,7 @@ export default function Uses() {
 					<li>Apple Magic Trackpad</li>
 				</ul>
 				<br />
-				<h2 id="coding" className="text-slate-400">
+				<h2 id="coding" className="text-[#e64c33] font-bold">
 					Coding
 				</h2>
 				<ul className="text-2xl leading-relaxed">
@@ -60,7 +62,7 @@ export default function Uses() {
 					<li>Terminal: Warp / zsh </li>
 				</ul>
 				<br />
-				<h2 id="software" className="text-slate-400">
+				<h2 id="software" className="text-[#e64c33] font-bold">
 					Software
 				</h2>
 				<ul className="text-2xl leading-relaxed">
@@ -73,7 +75,7 @@ export default function Uses() {
 					<li>Things</li>
 				</ul>
 				<br />
-				<h2 id="other-tech" className="text-slate-400">
+				<h2 id="other-tech" className="text-[#e64c33] font-bold">
 					Other Tech
 				</h2>
 				<ul className="text-2xl leading-relaxed">

@@ -10,7 +10,7 @@ import user from '@public/projects/scientia/userFlow.png';
 
 export default function Project4() {
   return (
-		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
+		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-6 w-full">
 			<h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">
 				Scientia - Task Tracker
 			</h1>
@@ -24,7 +24,7 @@ export default function Project4() {
 					alt="/"
 				/>
 			</div>
-			<div className="mb-8 prose dark:prose-dark leading-6">
+			<div className="mb-8 prose dark:prose-dark leading-relaxed">
 				<div className="flex">
 					<ul>
 						<h2 className="text-[#e64c33]">Tools Used</h2>

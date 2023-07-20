@@ -8,7 +8,7 @@ import cs from '@public/projects/sneakerx/sneakerx-cs-pt1.png'
 
 export default function Project3() {
 	return (
-		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
+		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-6 w-full">
 			<h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">
 				SneakerX CaseStudy
 			</h1>

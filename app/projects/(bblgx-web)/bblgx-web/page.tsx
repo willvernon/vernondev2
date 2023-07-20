@@ -10,7 +10,7 @@ import fmock from '@public/projects/bblgx-website/mock-final.png';
 
 export default function LgxWebsite() {
   return (
-		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">
+		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-4 w-full">
 			<h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">
 				Logistics Website
 			</h1>
@@ -24,9 +24,8 @@ export default function LgxWebsite() {
 					alt="/"
 				/>
 
-				<div className="absolute top-[80%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2"></div>
 			</div>
-			<div className="mb-8 prose dark:prose-dark leading-6">
+			<div className="mb-8 prose dark:prose-dark leading-relaxed">
 				<div className="flex">
 					<ul>
 						<h2 className="text-[#e64c33]">Tools Used</h2>
