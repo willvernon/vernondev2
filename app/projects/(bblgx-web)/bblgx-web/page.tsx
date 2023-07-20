@@ -107,7 +107,7 @@ export default function LgxWebsite() {
 				</div>
 				<h3>Problem Statement</h3>
 				<p>
-					👉🏼 We have observed that organization needed a way to give
+					👉🏼 We have observed that the organization needed a way to give
 					clients something to show their professionalism and giving the
 					client information without giving too much information…
 				</p>

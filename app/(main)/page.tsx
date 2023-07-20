@@ -13,7 +13,6 @@ import NHASH from '@public/projects/NHASH.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import dennys from '@public/projects/dennys/hero.png'
 
-
 import { motion } from 'framer-motion'
 import { Suspense } from 'react'
 
@@ -23,99 +22,84 @@ export default async function Page() {
 			<BigText slides={["I'm Will", 'Digital Craftsman']} />
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-12">
 				<PostCard
-					title="What are the best security practices for a very online future."
+					title="Showing a modern and professional approach to a website for a private security/logistics company."
 					slug="/"
 					gradient="from-[#feb4c8] to-[#818CF8]"
 					image={bblgx}
 				/>
 				<PostCard
-					title="Working smarter not harder, a Productivity Stack for creating the Second Brain."
+					title="A full remodel of a 12yo frontend e-commerce site for a local custom linen company."
 					slug="/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={linen}
 				/>
 				<PostCard
-					title="Working with implementing CMS like Sanity inside of React & Next.JS."
+					title="This is a mobile app built for internal use for document and data management."
 					slug="/"
 					gradient="from-[#8afdea] via-[#FCA5A5] to-[#FECACA]"
 					image={demo}
 				/>
 				<PostCard
-					title="Working with implementing CMS like Sanity inside of React & Next.JS."
+					title="My first internship project building a well organized dashboard to view your bitcoin miner statistics."
 					slug="/"
 					gradient="from-[#8afdea] via-[#FCA5A5] to-[#FECACA]"
 					image={NHASH}
 				/>
 				<PostCard
-					title="What are the best security practices for a very online future."
+					title="This is a mobile app design for a sneaker marketplace."
 					slug="/"
 					gradient="from-[#feb4c8] to-[#818CF8]"
 					image={sneakerx}
 				/>
 				<PostCard
-					title="Working smarter not harder, a Productivity Stack for creating the Second Brain."
+					title="This is a marina dealership website with inventory, showrooms, and contact forms."
 					slug="/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={dennys}
 				/>
 			</div>
-			<div className="columns-2 sm:columns-3 gap-4 my-8">
-				<div className="relative h-40 mb-4 border-blue-500 border ">
-					test 1
-				</div>
-				<div className="relative h-80 mb-4 sm:mb-0 border-solid border-blue-500 border">
-					test 2
-				</div>
-				<div className="relative h-40 sm:h-80 sm:mb-4 border-solid border-blue-500 border">
-					test 3
-				</div>
-				<div className="relative h-40 mb-4 sm:mb-0 border-solid border-blue-500 border">
-					test 4
-				</div>
-				<div className="relative h-40 mb-4 border-solid border-blue-500 border">
-					test 5
-				</div>
-				<div className="relative h-80 border-solid border-blue-500 border">
-					test 6
-				</div>
-			</div>
-			<div className="prose prose-neutral dark:prose-invert border-solid border-blue-500 border">
-				<p className="prose prose-neutral dark:prose-invert ">
-					{`I'm a frontend developer, i enjoy solving problems and building things. I currently
-        work with web sites and desktop and mobile applications. `}
-					<span className="not-prose">
-						
-					</span>
-					{`, is where I live demo most of my projects.  `}
-					
-					{`  Is my side project llc, where I build and maintain websites and applications for small businesses and personal projects.`}
+
+			<div className="border-solid border-slate-600 border my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
+			<div className="prose prose-neutral mt-12 dark:prose-invert mx-auto">
+				<p className=" text-xl prose prose-neutral dark:prose-invert text-center max-w-3xl mx-auto">
+					I'm a Software Developer, I enjoy solving problems and building
+					new and interesting things. I currently work with mainly web
+					sites and desktop and mobile applications. Clicking any of the
+					links above will take you to a vercel live demo of my featured
+					projects. Digital Craftsmen LLC Is my side project, where I build
+					and maintain websites and applications for personal projects.
 				</p>
 			</div>
-			<div className="border-solid border-blue-500 border my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
-			<div className="prose prose-neutral dark:prose-invert border-solid border-blue-500 border">
-				<p>Text Block 2</p>
+			{/*<div className="prose prose-neutral dark:prose-invert">
+				<h3>Here are my links</h3>
 			</div>
-			<div className="my-8 flex flex-col space-y-4 w-full">
+			 <div className="my-8 mx-auto flex flex-col space-y-4 w-1/2">
 				<Suspense>
-					<CardLink name="CardLink One" href="/" />
-					<CardLink name="CardLink Two" href="/" />
-					<CardLink name="CardLink Three" href="/" />
+					<CardLink
+						name="LinkedIn"
+						href="https://www.linkedin.com/in/wmvernon"
+					/>
+					<CardLink name="GitHub" href="https://github.com/willvernon" />
+					<CardLink
+						name="My Person SoloDev: Digital Craftsmen LLC"
+						href="https://www.digitalcraftsmen.dev"
+					/>
 				</Suspense>
-			</div>
+			</div> */}
 
-			<div className="prose prose-neutral dark:prose-invert border-solid border-blue-500 border">
+			{/* <div className="prose prose-neutral dark:prose-invert border-solid border-blue-500 border">
 				<p>Footer Text Here</p>
-			</div>
-			<ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300">
+			</div> */}
+			<ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-600 dark:text-neutral-300 justify-center">
 				<li>
 					<a
 						className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
 						rel="noopener noreferrer"
 						target="_blank"
-						href="/"
+						href="https://www.linkedin.com/in/wmvernon"
 					>
 						<ArrowIcon />
-						<p className="h-7 ml-2">follow me on twitter</p>
+						<p className="h-7 ml-2">LinkedIn Profile</p>
 					</a>
 				</li>
 				<li>
@@ -123,10 +107,21 @@ export default async function Page() {
 						className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
 						rel="noopener noreferrer"
 						target="_blank"
-						href="/"
+						href="https://github.com/willvernon"
 					>
 						<ArrowIcon />
-						<p className="h-7 ml-2">get email updates</p>
+						<p className="h-7 ml-2">GitHub</p>
+					</a>
+				</li>
+				<li>
+					<a
+						className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+						rel="noopener noreferrer"
+						target="_blank"
+						href="https://www.digitalcraftsmen.dev"
+					>
+						<ArrowIcon />
+						<p className="h-7 ml-2">Digital Craftsmen LLC</p>
 					</a>
 				</li>
 			</ul>
