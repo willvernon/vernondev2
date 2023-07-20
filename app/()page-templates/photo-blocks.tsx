@@ -1,8 +1,6 @@
 import Image from 'next/image'
 
 import avatar from '../public/static/avatar.png'
-import dc from '../public/static/dc-logo.png'
-import Badge from '@components/badge'
 import ArrowIcon from '@components/icons/ArrowIcon'
 import CardLink from '@components/CardLink'
 
