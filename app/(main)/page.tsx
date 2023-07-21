@@ -20,20 +20,27 @@ export default async function Page() {
 	return (
 		<section>
 			<BigText slides={["I'm Will", 'Digital Craftsman']} />
+
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-12">
 				<PostCard
 					title="Showing a modern and professional approach to a website for a private security/logistics company."
-					slug="/"
-					gradient="from-[#feb4c8] to-[#818CF8]"
+					vercel="https://big-bison-logistics.vercel.app/"
+					gradient="from-[#fcd0db] to-[#818CF8]"
 					image={bblgx}
 				/>
 				<PostCard
 					title="A full remodel of a 12yo frontend e-commerce site for a local custom linen company."
-					slug="/"
+					vercel="https://custon-linen.vercel.app/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={linen}
 				/>
 				<PostCard
+					title="This is a mobile app design for a sneaker marketplace."
+					vercel="https://sneakerx-three.vercel.app/"
+					gradient="from-[#818CF8] to-[#f07b45]"
+					image={sneakerx}
+				/>
+				{/* <PostCard
 					title="This is a mobile app built for internal use for document and data management."
 					slug="/"
 					gradient="from-[#8afdea] via-[#FCA5A5] to-[#FECACA]"
@@ -45,18 +52,13 @@ export default async function Page() {
 					gradient="from-[#8afdea] via-[#FCA5A5] to-[#FECACA]"
 					image={NHASH}
 				/>
-				<PostCard
-					title="This is a mobile app design for a sneaker marketplace."
-					slug="/"
-					gradient="from-[#feb4c8] to-[#818CF8]"
-					image={sneakerx}
-				/>
+
 				<PostCard
 					title="This is a marina dealership website with inventory, showrooms, and contact forms."
 					slug="/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={dennys}
-				/>
+				/> */}
 			</div>
 
 			<div className="border-solid border-slate-600 border my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
