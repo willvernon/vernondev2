@@ -31,7 +31,7 @@ export default function SoloCard({ header, link, tools, image }) {
 				}}
 				className="p-4 max-w-lg my-1 mx-auto bg-[#181818a4]  flex items-center space-x-10 shadow-xl shadow-[0_15px_30px_-10px_rgb(255, 255, 255)] rounded-2xl"
 			>
-				<div className="pr-[2rem]">
+				<div className="pr-[0rem] md:pr-[1.5rem]">
 					<div className="text-xl flex items-center font-medium text-white">
 						<p> {header} </p>
 						<svg
@@ -53,7 +53,7 @@ export default function SoloCard({ header, link, tools, image }) {
 				</div>
 				<div className="shrink-0">
 					<Image
-						className=" md:w-[10rem] w-[5rem] rounded-xl"
+						className=" md:w-[10rem] w-[6rem] rounded-xl"
 						layout=""
 						objectFit="cover"
 						src={image}

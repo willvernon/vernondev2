@@ -5,20 +5,12 @@ import { motion } from 'framer-motion'
 // import useSWR from 'swr'
 import cn from '@lib/classNames'
 
-export default function PostCard({
-	title,
-	vercel,
-	gradient,
-	image,
-	name,
-	github,
-	link,
-}) {
+export default function PostCard({ vercel, gradient, image, github, link }) {
 	return (
 		<div
 			className={cn(
 				'transform hover:scale-[1.01] transition-all',
-				'rounded-xl w-full md:w-1/4 bg-gradient-to-r p-1',
+				'rounded-xl w-1/2 md:w-1/4 bg-gradient-to-r p-1',
 				gradient
 			)}
 		>
@@ -37,8 +29,8 @@ export default function PostCard({
 					/>
 					<br />
 				</div>
-				<div className="flex flex-col text-center space-y-4 font-medium">
-					<Link href={link}>
+				<div className="flex flex-col text-center space-y-4 font-medium ">
+					<Link href={link} className="">
 						<motion.div
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.9 }}
@@ -47,9 +39,9 @@ export default function PostCard({
 								stiffness: 400,
 								damping: 10,
 							}}
-							className="h-7 mx-auto px-9 text-center flex items-center font-semibold rounded-full bg-[#dd351f] text-white"
+							className="h-7 w-full text-center flex items-center font-semibold rounded-full bg-[#dd351f] text-white"
 						>
-							{name}
+							<p className="text-center mx-auto">Details</p>
 						</motion.div>
 					</Link>
 					<Link href={vercel}>
@@ -61,9 +53,9 @@ export default function PostCard({
 								stiffness: 400,
 								damping: 10,
 							}}
-							className="h-7 mx-auto px-10 flex items-center font-semibold rounded-full border text-center bg-slate-300 text-slate-700 "
+							className="h-7 w-full text-center flex items-center font-semibold rounded-full bg-white text-black"
 						>
-							Demo
+							<p className="text-center mx-auto">Demo</p>
 						</motion.div>
 					</Link>
 					<Link href={github}>
@@ -75,9 +67,9 @@ export default function PostCard({
 								stiffness: 400,
 								damping: 10,
 							}}
-							className="h-7 mx-auto px-9 flex items-center font-semibold rounded-full border text-center bg-slate-300 text-slate-700"
+							className="h-7 w-full text-center flex items-center font-semibold rounded-full bg-white text-black"
 						>
-							Github
+							<p className="text-center mx-auto">Github</p>
 						</motion.div>
 					</Link>
 				</div>
