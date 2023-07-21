@@ -10,7 +10,7 @@ export default function PostCard({ vercel, gradient, image, github, link }) {
 		<div
 			className={cn(
 				'transform hover:scale-[1.01] transition-all',
-				'rounded-xl w-1/2 md:w-1/4 bg-gradient-to-r p-1',
+				'rounded-xl w-1/2 md:w-[30%] bg-gradient-to-r p-1',
 				gradient
 			)}
 		>
