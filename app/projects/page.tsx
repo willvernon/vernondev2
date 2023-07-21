@@ -101,6 +101,14 @@ export default function Dashboard() {
 					image={boswells}
 				/>
 			</div>
+			<div className="flex-col-1 left-0 my-3 flex w-full">
+				<SoloCard
+					header="Scientia Tracker"
+					link="/projects/scientia"
+					tools="Built w/ React Native"
+					image={scientia}
+				/>
+			</div>
 		</div>
 	)
 }

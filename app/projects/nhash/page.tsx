@@ -16,7 +16,7 @@ export default function Project4() {
 			<h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">
 				NHASH - Bitcoin Miner
 			</h1>
-			<div className="w-[100%] h-[25rem] relative">
+			<div className="w-[100%] h-[55rem] relative">
 				<div className="absolute top-0 left-0 w-[100%] h-[25rem] " />
 				<Image
 					className="absolute z-1 rounded-[2rem]"
@@ -48,13 +48,13 @@ export default function Project4() {
 				<br />
 				<div className="text-center max-w-screen-lg">
 					<div className="grid grid-cols-2 ">
-						<div className="mx-auto ">
+						<div className="mx-auto mt-4">
 							<ul>
 								<h2>Category</h2>
 								<p>Web Design,Web Dev, & Hardware</p>
 							</ul>
 						</div>
-						<div className="mx-auto  ">
+						<div className="mx-auto  mt-4">
 							<ul>
 								<h2>Role</h2>
 								<p>UX Design & Programmer</p>
@@ -62,7 +62,7 @@ export default function Project4() {
 							</ul>
 						</div>
 
-						<div className="mx-auto ">
+						<div className="mx-auto mt-4">
 							<ul>
 								<h2>Challenge</h2>
 								<p>
@@ -71,7 +71,7 @@ export default function Project4() {
 								</p>
 							</ul>
 						</div>
-						<div className="mx-auto ">
+						<div className="mx-auto mt-4">
 							<ul>
 								<h2>Category</h2>
 								<p>1. Discovery</p>
@@ -81,9 +81,9 @@ export default function Project4() {
 						</div>
 					</div>
 				</div>
-				<h1 className="text-[#e64c33]">Discovery Phase</h1>
+				<h1 className="text-[#e64c33] mt-4">Discovery Phase</h1>
 				<br />
-				<h3>Quantitative Research</h3>
+				<h3 className="mt-4 font-bold">Quantitative Research</h3>
 				<p>
 					I interviewed the CEO on what he wanted the final product to look
 					like and since this was a service only one person was going to
@@ -91,7 +91,7 @@ export default function Project4() {
 				</p>
 				<div className="grid grid-cols-2 gap-12">
 					<div>
-						<h3>✅ Positives</h3>
+						<h3 className="mt-5 font-bold">✅ Positives</h3>
 
 						<li className="p-1"> CEO left lots of creative freedom</li>
 						<li className="p-1">
@@ -102,13 +102,13 @@ export default function Project4() {
 						</li>
 					</div>
 					<div>
-						<h3>❌ Negatives</h3>
+						<h3 className="mt-5 font-bold">❌ Negatives</h3>
 						<li className="p-1">Lots of information</li>
 						<li className="p-1"> Organization is sporadic </li>
 					</div>
 				</div>
 
-				<h3>Recommendations</h3>
+				<h3 className="mt-5 font-bold">Recommendations</h3>
 
 				<li className="p-1"> Clearly display the 4 miners</li>
 				<li className="p-1"> Show Money made </li>
@@ -133,7 +133,7 @@ export default function Project4() {
 					information.
 				</p>
 				<br />
-				<div className="w-[100%] h-[25rem] relative">
+				<div className="w-[100%] h-[25rem] relative my-6">
 					<div className="absolute top-0 left-0 w-[100%] h-[25rem]  " />
 					<Image
 						className="absolute z-1 rounded-[2rem]"
@@ -144,7 +144,9 @@ export default function Project4() {
 					/>
 				</div>
 				<br />
-				<h2 className="text-[#e64c33]">Wireframes & User Flows</h2>
+				<h2 className="text-[#e64c33] font-bold my-4">
+					Wireframes & User Flows
+				</h2>
 				<div className="grid grid-cols-2 grid-rows-1 gap-2">
 					<div className="grid-cols-start-1">
 						<Image
@@ -168,7 +170,7 @@ export default function Project4() {
 			</div>
 			<br />
 			<div className="w-[100%] h-[100%] relative">
-				<h2>Prototype</h2>
+				<h2 className="mb-2 font-bold">Prototype</h2>
 				<p>
 					I built a clickable prototype, with Figma and started testing out
 					features and with some of the team. (Had to remove the
@@ -176,7 +178,7 @@ export default function Project4() {
 				</p>
 				<br />
 				<h1 className="text-[#e64c33]">Iteration Phase</h1>
-				<h2>Testing</h2>
+				<h2 className="mt-5 font-bold">Testing</h2>
 				<br />
 				<li className="p-1">
 					Reduce how long it takes to update the information
@@ -186,12 +188,12 @@ export default function Project4() {
 					readable​​​​​​​​​​​​​​
 				</li>
 				<br />
-				<h2>Iterations</h2>
+				<h2 className="my-5 font-bold">Iterations</h2>
 				<p>Simplifying to allow consistent and smooth use process.</p>
 				<br />
 				<h1 className="text-[#e64c33]"> Summary </h1>
 				<br />
-				<h2>👎 Limitations</h2>
+				<h2 className="mt-5 font-bold">👎 Limitations</h2>
 				<br />
 				<p>
 					There are limitations when it comes to building a single page
@@ -212,7 +214,7 @@ export default function Project4() {
 					Making it easy to read without getting too technical​​​​​​​
 				</li>
 				<br />
-				<h2>👍 Value</h2>
+				<h2 className="mt-5 font-bold">👍 Value</h2>
 				<br />
 				<li className="p-1">
 					Making a very simplistic way to view complex data to make it easy

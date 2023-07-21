@@ -1,15 +1,15 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
+import Image from 'next/image'
 
-import sketch from '@public/projects/scientia/sketches.png';
-import mock from '@public/projects/scientia/wireframe.png';
-import hero from '@public/projects/scientia/hero.png';
-import user from '@public/projects/scientia/userFlow.png';
+import sketch from '@public/projects/scientia/sketches.png'
+import mock from '@public/projects/scientia/wireframe.png'
+import hero from '@public/projects/scientia/hero.png'
+import user from '@public/projects/scientia/userFlow.png'
 
 // import { BsFillXSquareFill } from 'react-icons';
 
 export default function Project4() {
-  return (
+	return (
 		<div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-6 w-full">
 			<h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">
 				Scientia - Task Tracker
@@ -28,10 +28,7 @@ export default function Project4() {
 				<div className="flex">
 					<ul>
 						<h2 className="text-[#e64c33]">Tools Used</h2>
-						<li>
-							ReactNative:{' '}
-							<a href="https://reactnative.dev/">Check it Out!</a>
-						</li>
+						<li>ReactNative</li>
 						<li>Adobe XD</li>
 					</ul>
 				</div>
@@ -49,13 +46,13 @@ export default function Project4() {
 				<br />
 				<div className="text-center max-w-screen-lg">
 					<div className="grid grid-cols-2 ">
-						<div className="mx-auto ">
+						<div className="mx-auto my-4">
 							<ul>
 								<h2>Category</h2>
 								<p>Mobile Design, Dev</p>
 							</ul>
 						</div>
-						<div className="mx-auto  ">
+						<div className="mx-auto  my-4">
 							<ul>
 								<h2>Role</h2>
 								<p>UX Design & Developer</p>
@@ -63,7 +60,7 @@ export default function Project4() {
 							</ul>
 						</div>
 
-						<div className="mx-auto ">
+						<div className="mx-auto my-4">
 							<ul>
 								<h2>Challenge</h2>
 								<p>
@@ -72,7 +69,7 @@ export default function Project4() {
 								</p>
 							</ul>
 						</div>
-						<div className="mx-auto ">
+						<div className="mx-auto my-4">
 							<ul>
 								<h2>Category</h2>
 								<p>1. Discovery</p>
@@ -83,7 +80,7 @@ export default function Project4() {
 					</div>
 				</div>
 				<h1 className="text-[#e64c33]">Discovery Phase</h1>
-				<h3>Quantitative Research</h3>
+				<h3 className="mt-5 font-bold">Quantitative Research</h3>
 				<p>
 					I interviewed a few student friends of mine and learned about
 					what their needs where and how they were staying organized in
@@ -93,7 +90,7 @@ export default function Project4() {
 				</p>
 				<div className="grid grid-cols-2 gap-12">
 					<div>
-						<h3>✅ Positives</h3>
+						<h3 className="mt-6 font-bold">✅ Positives</h3>
 
 						<li className="p-1">
 							Interviewees regard convenience as a priority when it comes
@@ -109,7 +106,7 @@ export default function Project4() {
 						</li>
 					</div>
 					<div>
-						<h3>❌ Negatives</h3>
+						<h3 className="mt-6 font-bold">❌ Negatives</h3>
 						<li className="p-1">
 							Interviewees mentioned that it needs to be very straight
 							forward and not be added to the struggle of organization
@@ -126,16 +123,16 @@ export default function Project4() {
 						</li>
 					</div>
 				</div>
-				<h3>Problem Statement</h3>
+				<h3 className="mt-5 font-bold">Problem Statement</h3>
 				<p>
 					👉🏼 I observed that organization and assignment management is very
 					important when keeping a strong academic and personal life
 					mixture, having each assignment accounted for allows for better
 					time management…
 				</p>
-				<h3>Definition</h3>
+				<h3 className="mt-5 font-bold">Definition</h3>
 				<p>Recommendations from students</p>
-				<h3>Recommendations</h3>
+				<h3 className="mt-5 font-bold">Recommendations</h3>
 
 				<li className="p-1">
 					Having a sorting system based on due date, priority, or name
@@ -164,7 +161,7 @@ export default function Project4() {
 					priority.
 				</p>
 				<br />
-				<div className="w-[100%] h-[25rem] relative">
+				<div className="w-[100%] h-[25rem] relative my-4">
 					<div className="absolute top-0 left-0 w-[100%] h-[25rem]  " />
 					<Image
 						className="absolute z-1 rounded-[2rem]"
@@ -206,7 +203,7 @@ export default function Project4() {
 				</p>
 				<br />
 				<h1 className="text-[#e64c33]">Iteration Phase</h1>
-				<h2>Testing</h2>
+				<h2 className="font-bold">Testing</h2>
 				<br />
 				<li className="p-1">
 					Reduce how long it takes to create new reminders 
@@ -220,12 +217,12 @@ export default function Project4() {
 					screens​​​​​​​
 				</li>
 				<br />
-				<h2>Iterations</h2>
+				<h2 className="mb-5 font-bold">Iterations</h2>
 				<p>Simplifying to allow consistent and smooth use process.</p>
 				<br />
 				<h1 className="text-[#e64c33]"> Summary </h1>
 				<br />
-				<h2>👎 Limitations</h2>
+				<h2 className="font-bold">👎 Limitations</h2>
 				<br />
 				<p>
 					There are limitations when it comes to building a task app. Here
@@ -246,7 +243,7 @@ export default function Project4() {
 					so building to include everyone can be difficult.
 				</li>
 				<br />
-				<h2>👍 Value</h2>
+				<h2 className="font-bold">👍 Value</h2>
 				<br />
 				<p>So why build an Task App?</p>
 				<br />
@@ -267,5 +264,5 @@ export default function Project4() {
 				</li>
 			</div>
 		</div>
-  )
+	)
 }

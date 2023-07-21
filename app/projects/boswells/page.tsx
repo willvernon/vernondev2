@@ -33,8 +33,8 @@ export default function Project4() {
 						<li>Figma</li>
 					</ul>
 				</div>
-				<h1 className="text-[#e64c33]">Project Overview</h1>
-				<p>
+				<h1 className="text-[#e64c33] mt-4">Project Overview</h1>
+				<p className='mt-4'>
 					Boswell&apos;s asked to have a clean and modern web design with a
 					white background and black text. I then added website features
 					that include a prominent double layer header with a center logo

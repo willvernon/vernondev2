@@ -23,9 +23,8 @@ export default function LgxWebsite() {
 					src={bblgx}
 					alt="/"
 				/>
-
 			</div>
-			<div className="mb-8 prose dark:prose-dark leading-relaxed">
+			<div className="my-8 prose dark:prose-dark leading-relaxed">
 				<div className="flex">
 					<ul>
 						<h2 className="text-[#e64c33]">Tools Used</h2>
@@ -46,14 +45,14 @@ export default function LgxWebsite() {
 				<p>Developer & Designer Contractor---</p>
 				<div className="text-center max-w-screen-lg">
 					<div className="grid grid-cols-2 ">
-						<div className="mx-auto ">
+						<div className="mx-auto my-4">
 							<ul>
 								<h2>Category</h2>
 								<p>Web Design</p>
 								<p>Front-End Developer</p>
 							</ul>
 						</div>
-						<div className="mx-auto  ">
+						<div className="mx-auto my-4 ">
 							<ul>
 								<h2>Role</h2>
 								<p>UX Design & Development</p>
@@ -61,7 +60,7 @@ export default function LgxWebsite() {
 							</ul>
 						</div>
 
-						<div className="mx-auto ">
+						<div className="mx-auto my-4">
 							<ul>
 								<h2>Challenge</h2>
 								<p>
@@ -70,7 +69,7 @@ export default function LgxWebsite() {
 								</p>
 							</ul>
 						</div>
-						<div className="mx-auto ">
+						<div className="mx-auto my-4">
 							<ul>
 								<h2>Category</h2>
 								<p>1. Discovery</p>
@@ -80,15 +79,15 @@ export default function LgxWebsite() {
 						</div>
 					</div>
 				</div>
-				<h1 className="text-[#e64c33]">Discovery Phase</h1>
-				<h3>Quantitative Research</h3>
-				<p>
+				<h1 className="text-[#e64c33] my-4 ">Discovery Phase</h1>
+				<h3 className="my-4">Quantitative Research</h3>
+				<p className="my-4">
 					Given the private aspect of the company&apos;s dealings and their
 					clients the amount of information available for the research
 					aspect is low and suppose to appeal to a very niche group of
 					individuals looking for private logistics.
 				</p>
-				<div className="grid grid-cols-2 gap-12">
+				<div className="grid grid-cols-2 gap-12 my-4">
 					<div>
 						<h3>✅ Positives</h3>
 						<p>
@@ -104,29 +103,29 @@ export default function LgxWebsite() {
 						</p>
 					</div>
 				</div>
-				<h3>Problem Statement</h3>
+				<h3 className="my-4">Problem Statement</h3>
 				<p>
 					👉🏼 We have observed that the organization needed a way to give
 					clients something to show their professionalism and giving the
 					client information without giving too much information…
 				</p>
-				<h3>Definition</h3>
+				<h3 className="mt-4 font-bold">Definition</h3>
 				<p>Recommendations from contractors and the CEO</p>
-				<h3>Recommendations</h3>
+				<h3 className="mt-4 font-bold">Recommendations</h3>
 				<li>Design a visually appealing webpage for marketing</li>{' '}
 				<li>Share some small tidbits about who the company is</li>{' '}
 				<li>
 					Try to show the professionalism and experience the company has
 				</li>
 				<br />
-				<h1 className="text-[#e64c33]">Solution Phase</h1>
-				<h2>Ideation</h2>
+				<h1 className="text-[#e64c33] font-bold mt-4">Solution Phase</h1>
+				<h2 className="mt-4 font-bold">Ideation</h2>
 				<p>
 					After receiving my recommendations i started sketching the mockup
 					and wireframe of what a professional web page looks like while
 					trying to keep it engaging.
 				</p>
-				<h2>Sketches & Paper Prototypes</h2>
+				<h2 className="mt-4 font-bold">Sketches & Paper Prototypes</h2>
 				<p>
 					With the first round of usability tests completed using the paper
 					prototype, I moved on to creating refined wireframes & user flows
@@ -152,7 +151,7 @@ export default function LgxWebsite() {
 						/>
 					</div>
 				</div>
-				<h2>Wireframes & User Flows</h2>
+				<h2 className="mt-4 font-bold">Wireframes & User Flows</h2>
 				<div className="w-[100%] h-[150rem] relative">
 					<div className="absolute top-0 left-0 w-[100%] h-[25rem] " />
 					<Image
@@ -163,28 +162,28 @@ export default function LgxWebsite() {
 						alt="/"
 					/>
 				</div>
-				<h2>Prototype</h2>
+				<h2 className="mt-6 font-bold">Prototype</h2>
 				<p>
 					I built a clickable prototype, with Figma and started testing out
 					features and with some of the team.
 				</p>
 				<br />
 				<h1 className="text-[#e64c33]">Iteration Phase</h1>
-				<h2>Testing</h2>
+				<h2 className="mt-4 font-bold">Testing</h2>
 				<li>Fixing usability issues</li>
 				<li>Clean and displays information in a professional manor</li>
 				<li>Keeping the information readable and digestible</li>
 				<br />
-				<h2>Iterations</h2>
+				<h2 className="mt-4 font-bold">Iterations</h2>
 				<p>Simplifying to allow consistent information and usability.</p>
 				<br />
 				<h1 className="text-[#e64c33]"> Summary </h1>
-				<h2>👎 Limitations</h2>
+				<h2 className="mt-4 font-bold">👎 Limitations</h2>
 				<p>
 					Keeping the information vague but informative with minimal
 					detail​​​​​​​
 				</p>
-				<h2>👍 Value</h2>
+				<h2 className="mt-4 font-bold">👍 Value</h2>
 				<p>
 					So why build website with little information, being able to have
 					a front facing presence is very important to clients to show your
