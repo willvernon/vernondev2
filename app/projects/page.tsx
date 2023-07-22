@@ -7,7 +7,7 @@ import nhash from '@public/projects/NHASH.png'
 import linen from '@public/projects/linen.png'
 import dennys from '@public/projects/dennys/hero.png'
 import boswells from '@public/projects/boswells/hero.png'
-import FeatCard from '@components/projects/FeatCard'
+import FeatureCard from '@components/projects/FeatureCard'
 import bblgx from '@public/projects/bblgx.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import Demo from '@public/projects/Demo.png'
@@ -33,31 +33,25 @@ export default function Dashboard() {
 				</p>
 			</div>
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-6">
-				<FeatCard
-					title="Showing a modern and professional approach to a website for a private security/logistics company."
+				<FeatureCard
 					vercel="https://big-bison-logistics.vercel.app/"
 					gradient="from-[#fcd0db] to-[#818CF8]"
 					image={bblgx}
 					link="/projects/bblgx-web"
-					name={'Details'}
 					github="https://github.com/willvernon/BigBisonLogistics"
 				/>
-				<FeatCard
-					title="A full remodel of a 12yo frontend e-commerce site for a local custom linen company."
+				<FeatureCard
 					vercel="https://custon-linen.vercel.app/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={linen}
 					link="/projects/linen"
-					name={'Details'}
 					github="https://github.com/willvernon/custom-linen"
 				/>
-				<FeatCard
-					title="This is a mobile app design for a sneaker marketplace."
+				<FeatureCard
 					vercel="https://sneakerx-three.vercel.app/"
 					gradient="from-[#818CF8] to-[#f07b45]"
 					image={sneakerx}
 					link="/projects/sneakerx"
-					name={'Details'}
 					github="https://github.com/willvernon/Sneakerx"
 				/>
 			</div>

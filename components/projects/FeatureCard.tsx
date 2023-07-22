@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 // import useSWR from 'swr'
 import cn from '@lib/classNames'
 
-export default function PostCard({ vercel, gradient, image, github, link }) {
+export default function FeatureCard({ vercel, gradient, image, github, link }) {
 	return (
 		<div
 			className={cn(
