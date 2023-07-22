@@ -1,65 +1,85 @@
-import Link from 'next/link';
-import Image from 'next/image';
+'use client'
+import Link from 'next/link'
+import Image from 'next/image'
+import { motion, useScroll, useSpring } from 'framer-motion'
+import { useEffect } from 'react'
 
-
-import hero from '@public/projects/boswells/hero.png';
-import full from '@public/projects/boswells/full.png';
+import hero from '@public/projects/boswells/hero.png'
+import full from '@public/projects/boswells/full.png'
+import BackArrow from '@components/icons/BackArrow'
 
 // import { BsFillXSquareFill } from 'react-icons';
 
 export default function Project4() {
-  return (
-		<div className="mx-auto mb-16 flex w-full max-w-2xl flex-col items-start justify-center">
-			<h1 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">
-				Boswell&apos;s Golf - Golf Cart Dealership
-			</h1>
-			<div className="relative h-[25rem] w-[100%]">
-				<div className="absolute top-0 left-0 h-[25rem] w-[100%] " />
-				<Image
-					className="z-1 absolute rounded-[2rem]"
-					layout="fill"
-					objectFit="cover"
-					src={hero}
-					alt="/"
-				/>
-			</div>
-			<div className="prose mb-8 leading-6 dark:prose-dark">
-				<div className="flex">
-					<ul>
-						<h2 className="text-[#e64c33]">Tools Used</h2>
-						<li>HTML</li>
-						<li>SCSS</li>
-						<li>Twig</li>
-						<li>Figma</li>
-					</ul>
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+	const { scrollYProgress } = useScroll()
+	const scaleX = useSpring(scrollYProgress, {
+		stiffness: 100,
+		damping: 30,
+		restDelta: 0.001,
+	})
+	return (
+		<>
+			<motion.div
+				className="sticky z-100 top-0 left-0 right-0 h-2 bg-red-500 transform-origin-right"
+				style={{ scaleX }}
+			/>
+			<BackArrow />
+			<div className="mx-auto mb-6 flex w-full max-w-2xl flex-col items-start justify-center">
+				<h1 className="mb-4 text-3xl font-bold tracking-tight text-white md:text-5xl">
+					Boswell&apos;s Golf - Golf Cart Dealership
+				</h1>
+				<div className="relative h-[25rem] w-[100%]">
+					<div className="absolute top-0 left-0 h-[25rem] w-[100%] " />
+					<Image
+						className="z-[-10] absolute rounded-[2rem]"
+						layout="fill"
+						objectFit="cover"
+						src={hero}
+						alt="/"
+					/>
 				</div>
-				<h1 className="text-[#e64c33]">Project Overview</h1>
-				<p>
-					Boswell&apos;s asked to have a clean and modern web design with a
-					white background and black text. I then added website features
-					that include a prominent double layer header with a center logo
-					and has mid CTA&apos;s for quick navigation. The homepage also
-					includes sections for featured products, side tab brand showcase,
-					and text synced to a CMS that allows the owners to adjust web
-					text without requiring assistance from devs. The overall layout
-					is organized and easy to navigate, with a consistent color scheme
-					and typography throughout the site.
+				<div className="prose mb-8 leading-relaxed dark:prose-dark">
+					<div className="flex">
+						<ul>
+							<h2 className="text-[#e64c33]">Tools Used</h2>
+							<li>HTML</li>
+							<li>SCSS</li>
+							<li>Twig</li>
+							<li>Figma</li>
+						</ul>
+					</div>
+					<h1 className="text-[#e64c33] mt-4">Project Overview</h1>
+					<p className="mt-4">
+						Boswell&apos;s asked to have a clean and modern web design
+						with a white background and black text. I then added website
+						features that include a prominent double layer header with a
+						center logo and has mid CTA&apos;s for quick navigation. The
+						homepage also includes sections for featured products, side
+						tab brand showcase, and text synced to a CMS that allows the
+						owners to adjust web text without requiring assistance from
+						devs. The overall layout is organized and easy to navigate,
+						with a consistent color scheme and typography throughout the
+						site.
+						<br />
+						Below is a screenshot of the full homepage.
+					</p>
 					<br />
-					Below is a screenshot of the full homepage.
-				</p>
-				<br />
-				<div className="relative h-[100rem] w-[100%]">
-					<div className="absolute top-0 left-0 h-[100rem] w-[100%] ">
-						<Image
-							className="z-1 absolute rounded-[2rem]"
-							layout="fill"
-							objectFit="cover"
-							src={full}
-							alt="/"
-						/>
+					<div className="relative h-[100rem] w-[100%]">
+						<div className="absolute top-0 left-0 h-[100rem] w-[100%] ">
+							<Image
+								className="z-[-10] absolute rounded-[2rem]"
+								layout="fill"
+								objectFit="cover"
+								src={full}
+								alt="/"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-  )
+		</>
+	)
 }

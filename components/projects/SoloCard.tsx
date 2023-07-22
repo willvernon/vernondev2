@@ -1,6 +1,8 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 // function NavItem({ href, text }) {
 //   const router = useRouter();
@@ -15,36 +17,50 @@ import Image from 'next/image'
 
 export default function SoloCard({ header, link, tools, image }) {
 	return (
-		<div className="p-6 max-w-lg  mx-auto bg-white  flex items-center space-x-10 hover:shadow-xl shadow-[0_15px_30px_-10px_rgb(255, 255, 255)] rounded-2xl">
-			<div className="pr-[5rem]">
-				<div className="text-xl flex items-center font-medium text-black dark:text-white">
-					<a href={link}> {header} </a>
-					<svg
-						className="h-4 w-4 ml-1"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="currentColor"
-					>
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth={2}
-							d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-						/>
-					</svg>
+		<Link
+			href={link}
+			className="py-3 px-5 max-w-lg my-2 mx-auto bg-[#3131313b]  flex items-center space-x-10 shadow-xl shadow-[0_15px_30px_-10px_rgb(255, 255, 255)] rounded-2xl"
+		>
+			<motion.div
+				whileHover={{ scale: 1.02 }}
+				whileTap={{ scale: 0.99 }}
+				transition={{
+					type: 'spring',
+					stiffness: 600,
+					damping: 5,
+				}}
+				className="p-4 max-w-lg my-1 mx-auto bg-[#181818a4]  flex items-center space-x-10 shadow-xl shadow-[0_15px_30px_-10px_rgb(255, 255, 255)] rounded-2xl"
+			>
+				<div className="pr-[0rem] md:pr-[1.5rem]">
+					<div className="text-xl flex items-center font-medium text-white">
+						<p> {header} </p>
+						<svg
+							className="h-4 w-4 ml-1"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth={2}
+								d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+							/>
+						</svg>
+					</div>
+					<p className="text-slate-400 text-xs">{tools}</p>
 				</div>
-				<p className="text-slate-500 text-xs">{tools}</p>
-			</div>
-			<div className="shrink-0">
-				<Image
-					className=" md:w-[10rem] w-[5rem] rounded-xl"
-					layout=""
-					objectFit="cover"
-					src={image}
-					alt="/"
-				/>
-			</div>
-		</div>
+				<div className="shrink-0">
+					<Image
+						className=" md:w-[10rem] w-[6rem] rounded-xl"
+						layout=""
+						objectFit="cover"
+						src={image}
+						alt="/"
+					/>
+				</div>
+			</motion.div>
+		</Link>
 	)
 }

@@ -5,10 +5,10 @@ import { motion } from 'framer-motion'
 // import useSWR from 'swr'
 import cn from '@lib/classNames'
 
-export default function PostCard({ title, slug, gradient, image }) {
+export default function PostCard({ title, vercel, gradient, image }) {
 	return (
 		<Link
-			href={`/project/${slug}`}
+			href={vercel}
 			className={cn(
 				'transform hover:scale-[1.01] transition-all',
 				'rounded-xl w-full md:w-1/4 bg-gradient-to-r p-1',
@@ -19,10 +19,10 @@ export default function PostCard({ title, slug, gradient, image }) {
 				whileHover={{ scale: 1.05 }}
 				whileTap={{ scale: 0.9 }}
 				transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-				className="flex flex-col justify-between h-full bg-white dark:bg-gray-900 rounded-lg p-4"
+				className="flex flex-col justify-between h-full bg-[#181818] rounded-lg p-4"
 			>
 				<div className="flex flex-col-reverse items-center justify-between">
-					<h3 className="text-lg font-black md:text-lg w-full text-gray-900 dark:text-gray-100 tracking-tight">
+					<h3 className="text-lg font-black md:text-lg w-full text-gray-100 tracking-tight">
 						{title}
 					</h3>
 					<br />
@@ -34,7 +34,7 @@ export default function PostCard({ title, slug, gradient, image }) {
 						className=" w-3/4 rounded-2xl "
 					/>
 				</div>
-				<div className="flex items-center text-gray-800 dark:text-gray-200 capsize">
+				<div className="flex mt-2 items-center text-gray-200 capsize">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						className="h-6 w-6"
@@ -55,7 +55,10 @@ export default function PostCard({ title, slug, gradient, image }) {
 							d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
 						/>
 					</svg>
-					<span className="ml-2 align-baseline capsize"></span>
+					<span className="ml-2 align-baseline text-xs">
+						{' '}
+						Featured Demo
+					</span>
 				</div>
 			</motion.div>
 		</Link>

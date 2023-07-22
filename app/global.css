@@ -93,8 +93,18 @@ body {
   font-family: 'graphik-medium', sans-serif;
   }
 
-h1,h2,h3,span{
+h1,h2,h3,{
   font-family: 'titillium web'}
+
+h1 {font-size: 2.5rem;}
+
+h2 {font-size: 2rem;}
+
+h3 {font-size: 1.5rem;}
+
+span{
+  font-family: 'titillium web'}
+
 
 .prose .anchor {
   @apply absolute invisible no-underline;

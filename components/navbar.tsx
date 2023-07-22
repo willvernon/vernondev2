@@ -6,16 +6,19 @@ import Link from 'next/link';
 import { LayoutGroup, motion } from 'framer-motion';
 
 const navItems = {
-  '/': {
-    name: 'home',
-  },
-  '/projects': {
-    name: 'projects',
-  },
-  '/blog': {
-    name: 'blog',
-  },
-};
+	'/': {
+		name: 'home',
+	},
+	'/projects': {
+		name: 'projects',
+	},
+	'/uses': {
+		name: 'uses',
+	},
+	'/blog': {
+		name: 'blog',
+	},
+}
 
 export default function Navbar() {
   let pathname = usePathname() || '/';

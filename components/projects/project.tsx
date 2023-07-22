@@ -6,7 +6,7 @@ import demo from '@public/projects/Demo.png'
 import bblgx from '@public/projects/bblgx.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import scientia from '@public/projects/scientia.png'
-// import linen from '@public/projects/linen.png'
+import linen from '@public/projects/linen.png'
 
 export default function ProjectsCard() {
 	const link = '..'
@@ -16,34 +16,38 @@ export default function ProjectsCard() {
 			<MetricCard
 				header="Logistics Website"
 				link="/projects/bblgx-web"
+				vercel="https://big-bison-logistics.vercel.app/"
 				github="https://github.com/willvernon/BigBisonLogistics"
 				name="Details"
-				tools="Built w/ Nextjs, React, & Tailwind"
+				tools="Nextjs & Tailwind"
 				image={bblgx}
 			/>
 			<MetricCard
-				header="Inner Management App"
+				header="Management App"
 				link="/projects/bblgx"
+				vercel="http://digitalcraftsmen.dev/"
 				github="https://github.com/willvernon"
 				name="Details"
-				tools="Built w/ Swift & Figma"
+				tools="Swift & Figma"
 				image={demo}
 			/>
 			<MetricCard
 				header="SneakerX"
 				link="/projects/sneakerx"
+				vercel="https://sneakerx-three.vercel.app/"
 				github="https://github.com/willvernon/Sneakerx"
 				name="Details"
-				tools="Built w/ HTML, CSS, & Figma"
+				tools="HTML, CSS, & Figma"
 				image={sneakerx}
 			/>
 			<MetricCard
-				header="Scientia"
-				link="/projects/scientia"
+				header="Custom Linen"
+				link="/projects/linen"
+				vercel="https://custon-linen.vercel.app/"
 				github="https://github.com/willvernon"
 				name="Details"
-				tools="Built w/ ReactNative"
-				image={scientia}
+				tools="ReactNative"
+				image={linen}
 			/>
 		</div>
 	)
