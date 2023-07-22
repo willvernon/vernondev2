@@ -9,6 +9,7 @@ export default function PostCard({ title, vercel, gradient, image }) {
 	return (
 		<Link
 			href={vercel}
+			target="_blank"
 			className={cn(
 				'transform hover:scale-[1.01] transition-all',
 				'rounded-xl w-full md:w-1/4 bg-gradient-to-r p-1',
