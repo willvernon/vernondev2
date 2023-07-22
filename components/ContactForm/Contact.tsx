@@ -11,6 +11,7 @@ export default function ContactForm() {
 	const [query, setQuery] = useState({
 		name: '',
 		email: '',
+		message: '',
 	})
 
 	// Update inputs value
