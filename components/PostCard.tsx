@@ -23,7 +23,7 @@ export default function PostCard({ title, vercel, gradient, image }) {
 				className="flex flex-col justify-between h-full bg-[#181818] rounded-lg p-4"
 			>
 				<div className="flex flex-col-reverse items-center justify-between">
-					<h3 className="text-lg font-black md:text-lg w-full text-gray-100 tracking-tight">
+					<h3 className="text-lg font-black md:text-lg w-full text-gray-100  tracking-tight">
 						{title}
 					</h3>
 					<br />
