@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import resume from 'public/static/Resume.png'
+import resume from '@public/static/Resume.png'
 import Link from 'next/link'
 import avatar from '../public/MeMoji-Mac.png'
 import DownloadButton from '@components/ResumeDownload'
