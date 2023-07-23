@@ -14,7 +14,7 @@ import Demo from '@public/projects/Demo.png'
 
 export default function Dashboard() {
 	return (
-		<div className="mx-auto mb-16 flex max-w-2xl flex-col items-start justify-center">
+		<div className="mx-auto mb-16 flex max-w-4xl flex-col items-start justify-center">
 			<h1 className="mb-4 text-3xl font-bold tracking-tight text-whtie dark:text-white md:text-5xl">
 				Project Showcase
 			</h1>
@@ -63,45 +63,47 @@ export default function Dashboard() {
 				Curious what I have worked on or currently working on? Here&apos;s
 				some of my projects on Github.
 			</p>
-			<div className="right-0 my-3 flex w-full flex-col">
-				<SoloCard
-					header="Management App"
-					link="/projects/bblgx"
-					tools="Built w/ Figma, & Swift"
-					image={Demo}
-				/>
-			</div>
-			<div className="flex-col-1 left-0 my-3 flex w-full">
-				<SoloCard
-					header="NHASH Display"
-					link="/projects/nhash"
-					tools="Built w/ HTML"
-					image={nhash}
-				/>
-			</div>
-			<div className="right-0 my-3 flex w-full flex-col">
-				<SoloCard
-					header="Dennys Marina"
-					link="/projects/dennys"
-					tools="Built w/ HTML, Figma, & Twig"
-					image={dennys}
-				/>
-			</div>
-			<div className="right-0 my-3 flex w-full flex-col">
-				<SoloCard
-					header="Boswells Golf"
-					link="/projects/boswells"
-					tools="Built w/ HTML, Figma, & Twig"
-					image={boswells}
-				/>
-			</div>
-			<div className="flex-col-1 left-0 my-3 flex w-full">
-				<SoloCard
-					header="Scientia Tracker"
-					link="/projects/scientia"
-					tools="Built w/ React Native"
-					image={scientia}
-				/>
+			<div className="flex xs:flex-col flex-wrap md:flex-wrap">
+				<div className="right-0 my-3 w-full md:w-1/2 ">
+					<SoloCard
+						header="Management App"
+						link="/projects/bblgx"
+						tools="Built w/ Figma, & Swift"
+						image={Demo}
+					/>
+				</div>
+				<div className=" my-3 mx-auto w-full md:w-1/2 ">
+					<SoloCard
+						header="NHASH Display"
+						link="/projects/nhash"
+						tools="Built w/ HTML"
+						image={nhash}
+					/>
+				</div>
+				<div className="right-0 my-3 w-full md:w-1/2 ">
+					<SoloCard
+						header="Dennys Marina"
+						link="/projects/dennys"
+						tools="Built w/ HTML, Figma, & Twig"
+						image={dennys}
+					/>
+				</div>
+				<div className="right-0 my-3 w-full md:w-1/2 ">
+					<SoloCard
+						header="Boswells Golf"
+						link="/projects/boswells"
+						tools="Built w/ HTML, Figma, & Twig"
+						image={boswells}
+					/>
+				</div>
+				<div className=" left-0 my-3 w-full md:w-1/2 ">
+					<SoloCard
+						header="Scientia Tracker"
+						link="/projects/scientia"
+						tools="Built w/ React Native"
+						image={scientia}
+					/>
+				</div>
 			</div>
 		</div>
 	)
