@@ -62,20 +62,7 @@ export default function BigText({ slides }: BigTextProps) {
 				<h3 className="mt-4 text-xl tracking-normal sm:text-lg md:text-md ">
 					Software Developer, Sports Fan, Outdoorsman, and this is my portfolio.  🚀
 				</h3>
-				{/* <div className="flex content-center">
-					<p className="text-tertiary mt-12 text-lg font-medium tracking-normal ">
-						This is my portfolio hope you enjoy. 🚀
-					</p>
-					<Image
-						alt="Will Vernon"
-						height={100}
-						width={100}
-						src={avatar}
-						sizes="100vw"
-						priority
-						className=" "
-					/>
-				</div> */}
+				
 			</div>
 			<div className=" flex flex-col w-1/3 ">
         <div className="flex flex-col content-center lg:ml-20 lg:mb-40 ">
