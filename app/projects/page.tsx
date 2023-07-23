@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import ProjectsCard from '@components/projects/project'
+// import ProjectsCard from '@components/projects/project'
 import SoloCard from '@components/projects/SoloCard'
 import scientia from '@public/projects/scientia.png'
 import nhash from '@public/projects/NHASH.png'

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 
 import ArrowIcon from '@components/icons/ArrowIcon'
-import CardLink from '@components/CardLink'
+// import CardLink from '@components/CardLink'
 import BigText from '@components/BigText'
 
 import { Suspense } from 'react'
@@ -50,9 +50,9 @@ export default async function Page() {
 			</div>
 			<div className="my-8 flex flex-col space-y-4 w-full">
 				<Suspense>
-					<CardLink name="CardLink One" href="/" />
+					{/* <CardLink name="CardLink One" href="/" />
 					<CardLink name="CardLink Two" href="/" />
-					<CardLink name="CardLink Three" href="/" />
+					<CardLink name="CardLink Three" href="/" /> */}
 				</Suspense>
 			</div>
 
