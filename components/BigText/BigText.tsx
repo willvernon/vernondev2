@@ -59,8 +59,8 @@ export default function BigText({ slides }: BigTextProps) {
 						</span>
 					)
 				})}
-				<h3 className="mt-4 text-xl tracking-normal sm:text-lg md:text-md ">
-					Software Developer, Sports Fan, Outdoorsman, and this is my portfolio.  🚀
+				<h3 className="mt-4 text-base tracking-normal sm:text-lg md:text-md ">
+					Developer, Sports Fan, Outdoorsman, and this is my portfolio. 🚀
 				</h3>
 				
 			</div>

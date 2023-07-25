@@ -20,7 +20,7 @@ export default async function Page() {
 		<section>
 			<BigText slides={["I'm Will", 'Digital Craftsman']} />
 
-			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-12">
+			<div className="flex gap-6 flex-wrap justify-center md:flex-row">
 				<PostCard
 					title="Showing a modern and professional approach to a website for a private security/logistics company."
 					vercel="https://big-bison-logistics.vercel.app/"
@@ -60,7 +60,7 @@ export default async function Page() {
 				/> */}
 			</div>
 
-			<div className="border-solid border-slate-600 border my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
+			<div className="border-solid border-slate-600 border mt-4 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
 			<div className="prose prose-neutral mt-12 dark:prose-invert mx-auto">
 				<p className=" text-xl prose prose-neutral dark:prose-invert text-center max-w-3xl mx-auto">
 					I'm a Software Developer, I enjoy solving problems and building
