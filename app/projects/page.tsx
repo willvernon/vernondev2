@@ -34,21 +34,21 @@ export default function Dashboard() {
 			</div>
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-6">
 				<FeatureCard
-					vercel="https://big-bison-logistics.vercel.app/"
+					
 					gradient="from-[#fcd0db] to-[#818CF8]"
 					image={bblgx}
 					link="/projects/bblgx-web"
 					github="https://github.com/willvernon/BigBisonLogistics"
 				/>
 				<FeatureCard
-					vercel="https://custon-linen.vercel.app/"
+					// vercel="https://custon-linen.vercel.app/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={linen}
 					link="/projects/linen"
 					github="https://github.com/willvernon/custom-linen"
 				/>
 				<FeatureCard
-					vercel="https://sneakerx-three.vercel.app/"
+					// vercel="https://sneakerx-three.vercel.app/"
 					gradient="from-[#818CF8] to-[#f07b45]"
 					image={sneakerx}
 					link="/projects/sneakerx"

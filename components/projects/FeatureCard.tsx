@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 // import useSWR from 'swr'
 import cn from '@lib/classNames'
 
-export default function FeatureCard({ vercel, gradient, image, github, link }) {
+export default function FeatureCard({  gradient, image, github, link }) {
 	return (
 		<div
 			className={cn(
@@ -44,7 +44,7 @@ export default function FeatureCard({ vercel, gradient, image, github, link }) {
 							<p className="text-center mx-auto">Details</p>
 						</motion.div>
 					</Link>
-					<Link href={vercel}>
+					{/* <Link href={vercel}>
 						<motion.div
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.9 }}
@@ -57,7 +57,7 @@ export default function FeatureCard({ vercel, gradient, image, github, link }) {
 						>
 							<p className="text-center mx-auto">Demo</p>
 						</motion.div>
-					</Link>
+					</Link> */}
 					<Link href={github}>
 						<motion.div
 							whileHover={{ scale: 1.05 }}
