@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 // import useSWR from 'swr'
 import cn from '@lib/classNames'
 
-export default function PostCard({ title, vercel, gradient, image }) {
+export default function PostCard({ vercel, title, gradient, image }) {
 	return (
 		<Link
 			href={vercel}
@@ -58,7 +58,7 @@ export default function PostCard({ title, vercel, gradient, image }) {
 					</svg>
 					<span className="ml-2 align-baseline text-xs">
 						{' '}
-						Featured Demo
+						Featured
 					</span>
 				</div>
 			</motion.div>

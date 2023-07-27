@@ -23,19 +23,19 @@ export default async function Page() {
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-12">
 				<PostCard
 					title="Showing a modern and professional approach to a website for a private security/logistics company."
-					vercel="https://big-bison-logistics.vercel.app/"
+					vercel="/projects/bblgx-web"
 					gradient="from-[#fcd0db] to-[#818CF8]"
 					image={bblgx}
 				/>
 				<PostCard
 					title="A full remodel of a 12yo frontend e-commerce site for a local custom linen company."
-					vercel="https://custon-linen.vercel.app/"
+					vercel="/projects/linen"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
 					image={linen}
 				/>
 				<PostCard
 					title="This is a mobile app design for a sneaker marketplace."
-					vercel="https://sneakerx-three.vercel.app/"
+					vercel="/projects/sneakerx"
 					gradient="from-[#818CF8] to-[#f07b45]"
 					image={sneakerx}
 				/>
