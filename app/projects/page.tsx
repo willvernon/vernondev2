@@ -10,7 +10,7 @@ import boswells from '@public/projects/boswells/hero.png'
 import FeatureCard from '@components/projects/FeatureCard'
 import bblgx from '@public/projects/bblgx.png'
 import sneakerx from '@public/projects/Sneakerx.png'
-import Demo from '@public/projects/Demo.png'
+import demo from '@public/projects/Demo.png'
 
 export default function Dashboard() {
 	return (
@@ -40,13 +40,13 @@ export default function Dashboard() {
 					link="/projects/bblgx-web"
 					github="https://github.com/willvernon/BigBisonLogistics"
 				/>
-				<FeatureCard
+				{/* <FeatureCard
 					// vercel="https://custon-linen.vercel.app/"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
-					image={linen}
-					link="/projects/linen"
-					github="https://github.com/willvernon/custom-linen"
-				/>
+					image={dc}
+					link="/projects/digitalcraftsmen"
+					github="https://github.com/willvernon/dc-website"
+				/> */}
 				<FeatureCard
 					// vercel="https://sneakerx-three.vercel.app/"
 					gradient="from-[#818CF8] to-[#f07b45]"
