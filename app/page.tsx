@@ -30,9 +30,9 @@ export default async function Page() {
 				/>
 				<PostCard
 					title="A full remodel of a 12yo frontend e-commerce site for a local custom linen company."
-					vercel="/projects/linen"
+					vercel="/projects/bblgx"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
-					image={linen}
+					image={demo}
 				/>
 				<PostCard
 					title="This is a mobile app design for a sneaker marketplace."
