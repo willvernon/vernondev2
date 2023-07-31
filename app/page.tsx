@@ -2,7 +2,6 @@
 import Image from 'next/image'
 
 import ArrowIcon from '@components/icons/ArrowIcon'
-import CardLink from '@components/CardLink'
 import BigText from '@components/BigText'
 import PostCard from '@components/PostCard'
 
