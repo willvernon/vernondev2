@@ -32,8 +32,7 @@ export default function Project4() {
 				<h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-white">
 					Scientia - Task Tracker
 				</h1>
-				<div className="w-[100%] h-[25rem] relative">
-					<div className="absolute top-0 left-0 w-[100%] h-[25rem] " />
+				<div className="w-[100%] h-[75rem] relative">
 					<Image
 						className="absolute z-[-10] rounded-[2rem]"
 						layout="fill"
