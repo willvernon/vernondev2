@@ -69,7 +69,7 @@ export default function Dashboard() {
 						header="Management App"
 						link="/projects/bblgx"
 						tools="Built w/ Figma, & Swift"
-						image={Demo}
+						image={demo}
 					/>
 				</div>
 				<div className=" my-3 mx-auto w-full md:w-1/2 ">
