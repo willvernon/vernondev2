@@ -1,4 +1,3 @@
-
 import Image from 'next/image'
 import resume from '@public/static/Resume.png'
 import Link from 'next/link'
@@ -8,15 +7,17 @@ import avatar from '../public/MeMoji-Mac.png'
 export default function Uses() {
 	return (
 		<article className="mx-auto mt-16 mb-16 flex w-full max-w-2xl flex-col items-start justify-center">
+			
 			<Image
 				className="rounded-3xl"
 				src={resume}
 				alt="/"
-				width={2164 / 2}
-				height={1546 / 2}
+				width={1546 / 2}
+				height={2164 / 2}
+				quality={100}
 				priority
 			/>
-			
+
 			<br />
 			<br />
 			<h1 className="mb-4 text-3xl font-bold tracking-tight text-[#e64c33]  md:text-5xl">
