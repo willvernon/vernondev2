@@ -11,6 +11,8 @@ import FeatureCard from '@components/projects/FeatureCard'
 import bblgx from '@public/projects/bblgx.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import demo from '@public/projects/Demo.png'
+import genie from '@public/projects/genie-ai/Genie-AI.png'
+import TopChoice from '@components/projects/topchoice'
 
 export default function Dashboard() {
 	return (
@@ -32,9 +34,16 @@ export default function Dashboard() {
 					</Link> */}
 				</p>
 			</div>
+			<div className="flex gap-6 flex-row justify-center mt-6">
+				<TopChoice
+					gradient="from-[#E64D33] via-[#3B82F6] to-[#946ee7]"
+					image={genie}
+					vercel="https://www.genieaistudio.com/"
+					link="/projects/genie"
+				/>
+			</div>
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-6">
 				<FeatureCard
-					
 					gradient="from-[#fcd0db] to-[#818CF8]"
 					image={bblgx}
 					link="/projects/bblgx-web"

@@ -11,6 +11,7 @@ import demo from '@public/projects/Demo.png'
 import NHASH from '@public/projects/NHASH.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import dennys from '@public/projects/dennys/hero.png'
+import genie from '@public/projects/genie-ai/Genie-AI.png'
 
 import { motion } from 'framer-motion'
 import { Suspense } from 'react'
@@ -28,10 +29,10 @@ export default async function Page() {
 					image={bblgx}
 				/>
 				<PostCard
-					title="A full remodel of a 12yo frontend e-commerce site for a local custom linen company."
-					vercel="/projects/bblgx"
+					title="A full set of AI models setup for all in access to multiple tools and functions in one place."
+					vercel="/projects/genie"
 					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
-					image={demo}
+					image={genie}
 				/>
 				<PostCard
 					title="This is a mobile app design for a sneaker marketplace."
