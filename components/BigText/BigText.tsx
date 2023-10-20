@@ -25,6 +25,8 @@ export default function BigText({ slides }: BigTextProps) {
     }
   }, 3000);
 
+	
+
   return (
 		<div className="z-10 flex max-w-100  flex-col sm:flex-row  m-auto items-center text-6xl font-extrabold tracking-tight md:ml-8 sm:text-[5rem] lg:text-[5rem]">
 			<div className="flex flex-col w-3/3 sm:w-2/3 txt-left">

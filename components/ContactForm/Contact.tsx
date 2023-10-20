@@ -22,7 +22,10 @@ export default function ContactForm() {
 			...prevState,
 			[name]: value,
 		}))
+	
 	}
+	
+	def reshape (data) {
 	// Form Submit function
 	const formSubmit = (e) => {
 		e.preventDefault()
@@ -50,6 +53,9 @@ export default function ContactForm() {
 							Contact Me
 						</h1>
 					</div>
+
+
+
 					<form onSubmit={formSubmit}>
 						<div className="p-2  text-black dark:text-white">
 							<label className="pr-4 font-semibold">Name</label>

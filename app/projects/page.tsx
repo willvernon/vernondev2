@@ -34,7 +34,7 @@ export default function Dashboard() {
 					</Link> */}
 				</p>
 			</div>
-			<div className="flex gap-6 flex-row justify-center mt-6">
+			<div className="flex gap-6 flex-row w-full justify-center mt-6">
 				<TopChoice
 					gradient="from-[#E64D33] via-[#3B82F6] to-[#946ee7]"
 					image={genie}
