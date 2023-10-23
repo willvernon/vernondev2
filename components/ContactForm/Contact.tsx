@@ -15,17 +15,14 @@ export default function ContactForm() {
 	})
 
 	// Update inputs value
-	const handleParam = () => (e) => {
-		const name = e.target.name
-		const value = e.target.value
-		setQuery((prevState) => ({
-			...prevState,
-			[name]: value,
-		}))
-	
-	}
-	
-	def reshape (data) {
+	const handleParam =
+		(name: string) => (e: React.ChangeEvent<HTMLInputElement>) => {
+			const value = e.target.value
+			setQuery((prevState) => ({
+				...prevState,
+				[name]: value,
+			}))
+		}
 	// Form Submit function
 	const formSubmit = (e) => {
 		e.preventDefault()
@@ -53,8 +50,6 @@ export default function ContactForm() {
 							Contact Me
 						</h1>
 					</div>
-
-
 
 					<form onSubmit={formSubmit}>
 						<div className="p-2  text-black dark:text-white">

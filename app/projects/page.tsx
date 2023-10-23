@@ -72,8 +72,8 @@ export default function Dashboard() {
 				Curious what I have worked on or currently working on? Here&apos;s
 				some of my projects on Github.
 			</p>
-			<div className="flex xs:flex-col flex-wrap md:flex-wrap">
-				<div className="right-0 my-3 w-full md:w-1/2 ">
+			<div className="grid md:grid-cols-6  grid-cols-1">
+				<div className="col-span-3 my-3 ">
 					<SoloCard
 						header="Management App"
 						link="/projects/bblgx"
@@ -81,7 +81,7 @@ export default function Dashboard() {
 						image={demo}
 					/>
 				</div>
-				<div className=" my-3 mx-auto w-full md:w-1/2 ">
+				<div className="col-span-3 my-3">
 					<SoloCard
 						header="NHASH Display"
 						link="/projects/nhash"
@@ -89,7 +89,7 @@ export default function Dashboard() {
 						image={nhash}
 					/>
 				</div>
-				<div className="right-0 my-3 w-full md:w-1/2 ">
+				<div className="col-span-3 my-3">
 					<SoloCard
 						header="Dennys Marina"
 						link="/projects/dennys"
@@ -97,7 +97,7 @@ export default function Dashboard() {
 						image={dennys}
 					/>
 				</div>
-				<div className="right-0 my-3 w-full md:w-1/2 ">
+				<div className="col-span-3 my-3 ">
 					<SoloCard
 						header="Boswells Golf"
 						link="/projects/boswells"
@@ -105,7 +105,7 @@ export default function Dashboard() {
 						image={boswells}
 					/>
 				</div>
-				<div className=" left-0 my-3 w-full md:w-1/2 ">
+				<div className="col-span-3 my-3 h-36 ">
 					<SoloCard
 						header="Scientia Tracker"
 						link="/projects/scientia"
