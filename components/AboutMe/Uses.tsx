@@ -38,52 +38,47 @@ export default function Uses() {
 				height={1546 / 2}
 				priority
 			/>
+
 			<div className="prose w-full dark:prose-dark">
-				<h2 id="computer-office" className="text-[#e64c33] font-bold">
+				<h2 id="computer-office" className="text-[#e64c33] font-bold ">
 					Computer / Office
 				</h2>
-				<ul className="text-2xl leading-relaxed">
-					<li>16&quot; Macbook Pro M1-pro</li>
-					<li>13.6&quot; Macbook air M2</li>
-					<li>iPad Pro M1</li>
-					<li>32&quot; Dell 4k HDR Curved Monitor</li>
-					<li>Vertical Asus Gaming Monitor</li>
-					<li>Logitech MX Master 3 Mouse</li>
-					<li>NuPhy Air 75 Mechanical Keyboard **</li>
-					<li>Apple Magic Trackpad</li>
-				</ul>
+					<ul className="text-2xl leading-relaxed -mt-10">
+					  <li>14&quot; Macbook Pro M3-Max</li>
+					  <li>12.9&quot; iPad Pro M4</li>
+					  <li>32&quot; Dell 4k HDR Curved Monitor</li>
+					  <li>Logitech MX Master 3 Mouse</li>
+					  <li>NuPhy Air 75 Mechanical Keyboard **</li>
+					  <li>Apple Magic Trackpad</li>
+					</ul>
 				<br />
 				<h2 id="coding" className="text-[#e64c33] font-bold">
 					Coding
 				</h2>
-				<ul className="text-2xl leading-relaxed">
-					<li>Editor: VSCode</li>
-					<li>Gitkraken or GH Client</li>
-					<li>Theme: My Personal custom Andromeda</li>
-					<li>Terminal: Warp / zsh </li>
-				</ul>
+					<ul className="text-2xl leading-relaxed">
+					  <li>Editor: Nvim</li>
+					  <li>Theme: My Modded Monokai Soda</li>
+					  <li>Terminal: Ghostty / Fish</li>
+					</ul>
 				<br />
 				<h2 id="software" className="text-[#e64c33] font-bold">
 					Software
 				</h2>
 				<ul className="text-2xl leading-relaxed">
-					<li>BitWarden</li>
-					<li>Proton **Highly Recommend</li>
-					<li>Arc Browser **Highly Recommend</li>
-					<li>Raycast **Highly Recommend</li>
-					<li>Notion</li>
-					<li>Bear</li>
-					<li>Things</li>
+				  <li>BitWarden</li>
+				  <li>Proton </li>
+				  <li>Brave</li>
+				  <li>Eagle</li>
+				  
+				  <li>Raycast</li>
+				  <li>Obsidian</li>
 				</ul>
 				<br />
 				<h2 id="other-tech" className="text-[#e64c33] font-bold">
 					Other Tech
 				</h2>
 				<ul className="text-2xl leading-relaxed">
-					<li>Apple Airpods Pro</li>
-					<li>Apple Watch</li>
-					<li>Apple iPhone</li>
-					<li>Hyperdrive USB-C dock</li>
+				  <li>Nothing Open Ear Headphones</li>
 				</ul>
 			</div>
 		</article>

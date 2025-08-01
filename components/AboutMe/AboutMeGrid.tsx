@@ -44,42 +44,42 @@ function AboutMeGrid() {
 				/>
 			</div>
 			{/* Mobile Mini Nav */}
-			<div className="row-start-1 row-span-1 col-start-7 col-span-2 m-1 rounded-xl bg-transparent h-25 w-25 text-center">
-				<ul className="flex flex-col absolute py-10">
-					<li
-						className="text-gray-100 text-sm font-semibold pl-3"
-						style={{ transitionDelay: '175ms' }}
-					>
-						<Link href="/resume" className="flex w-auto pb-4">
-							Resume
-						</Link>
-					</li>
-					<li
-						className="text-gray-100 text-sm font-semibold pl-3"
-						style={{ transitionDelay: '200ms' }}
-					>
-						<Link href="" className="flex w-auto pb-4">
-							My Gear
-						</Link>
-					</li>
-					<li
-						className="text-gray-100 text-sm font-semibold pl-3"
-						style={{ transitionDelay: '250ms' }}
-					>
-						<Link href="/projects" className="flex w-auto pb-4">
-							Projects
-						</Link>
-					</li>
-					<li
-						className="text-gray-100 text-sm font-semibold pl-3"
-						style={{ transitionDelay: '150ms' }}
-					>
-						<Link href="/contact" className="flex w-auto pb-4">
-							Contact Me
-						</Link>
-					</li>
-				</ul>
-			</div>
+		      <div className="row-start-1 row-span-1 col-start-7 col-span-2 m-1 rounded-xl bg-transparent h-25 w-25 text-center">
+			<ul className="flex flex-col absolute py-10">
+			  <li
+			    className="text-gray-100 text-sm font-semibold pl-3"
+			    style={{ transitionDelay: '175ms' }}
+			  >
+			    <Link href="/resume" className="flex w-auto pb-4">
+			      Resume
+			    </Link>
+			  </li>
+			  <li
+			    className="text-gray-100 text-sm font-semibold pl-3"
+			    style={{ transitionDelay: '200ms' }}
+			  >
+			    <Link href="https://willvernon.bearblog.dev/" className="flex w-auto pb-4">
+			      Dev Log
+			    </Link>
+			  </li>
+			  <li
+			    className="text-gray-100 text-sm font-semibold pl-3"
+			    style={{ transitionDelay: '250ms' }}
+			  >
+			    <Link href="/projects" className="flex w-auto pb-4">
+			      Projects
+			    </Link>
+			  </li>
+			  <li
+			    className="text-gray-100 text-sm font-semibold pl-3"
+			    style={{ transitionDelay: '150ms' }}
+			  >
+			    <Link href="/contact" className="flex w-auto pb-4">
+			      Contact Me
+			    </Link>
+			  </li>
+			</ul>
+		      </div>
 			{/* Tilted Blocks My Projects */}
 			<div className="row-start-2 row-span-1 col-start-5 col-span-2 m-1 rounded-xl bg-transparent h-25 w-25 text-center">
 				<div className="w-auto h-14 bg-[#e64c33] rounded-xl text-left pl-3 pt-3 font-mono text-xs text-slate-700 ">
@@ -150,7 +150,7 @@ function AboutMeGrid() {
 			<div className="row-start-3 row-span-1 col-start-5 col-span-4 m-1 rounded-xl bg-white h-25 w-25 text-left">
 				<div className="flex text-black m-3 ml-10">
 					<ul className="">
-						<h2 className="text-xl font-black pb-1 text-[#e64c33]">
+						<h2 className="text-xl font-black pb-3 text-[#e64c33]">
 							Links
 						</h2>
 						{/* <li>
@@ -168,12 +168,6 @@ function AboutMeGrid() {
 							LinkedIn:{' '}
 							<a href="https://www.linkedin.com/in/wmvernon/">
 								/wmvernon
-							</a>
-						</li>
-						<li className="py-1 font-black tracking-wider">
-							ENS:{' '}
-							<a href="https://app.ens.domains/name/vernondev.eth/details">
-								Vernondev.eth
 							</a>
 						</li>
 					</ul>
