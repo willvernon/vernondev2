@@ -15,16 +15,16 @@ const navItems = {
 	'/uses': {
 		name: 'uses',
 	},
-	'/blog': {
+	'https://willvernon.bearblog.dev/blog/': {
 		name: 'blog',
 	},
 }
 
 export default function Navbar() {
 	let pathname = usePathname() || '/'
-	if (pathname.includes('/blog/')) {
-		pathname = '/blog'
-	}
+	// if (pathname.includes('/blog/')) {
+	// 	pathname = '/blog'
+	// }
 
 	return (
 		<aside className="-ml-[8px] mb-16 tracking-tight">

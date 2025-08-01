@@ -63,14 +63,6 @@ export default async function Page() {
 
 			<div className="border-solid border-slate-600 border my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
 			<div className="prose prose-neutral mt-12 dark:prose-invert mx-auto">
-				<p className=" text-xl prose prose-neutral dark:prose-invert text-center max-w-3xl mx-auto">
-					I'm a Software Developer, I enjoy solving problems and building
-					new and interesting things. I currently work with mainly web
-					sites and desktop and mobile applications. Clicking any of the
-					links above will take you to a vercel live demo of my featured
-					projects. Digital Craftsmen LLC Is my side project, where I build
-					and maintain websites and applications for personal projects.
-				</p>
 			</div>
 			{/*<div className="prose prose-neutral dark:prose-invert">
 				<h3>Here are my links</h3>
@@ -115,17 +107,17 @@ export default async function Page() {
 						<p className="h-7 ml-2">GitHub</p>
 					</a>
 				</li>
-				<li>
-					<a
-						className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
-						rel="noopener noreferrer"
-						target="_blank"
-						href="https://www.digitalcraftsmen.dev"
-					>
-						<ArrowIcon />
-						<p className="h-7 ml-2">Digital Craftsmen LLC</p>
-					</a>
-				</li>
+				{/* <li> */}
+				{/* 	<a */}
+				{/* 		className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all" */}
+				{/* 		rel="noopener noreferrer" */}
+				{/* 		target="_blank" */}
+				{/* 		href="https://www.digitalcraftsmen.dev" */}
+				{/* 	> */}
+				{/* 		<ArrowIcon /> */}
+				{/* 		<p className="h-7 ml-2">Digital Craftsmen LLC</p> */}
+				{/* 	</a> */}
+				{/* </li> */}
 			</ul>
 		</section>
 	)
