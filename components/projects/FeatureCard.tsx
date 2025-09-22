@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 // import useSWR from 'swr'
 import cn from '@lib/classNames'
 
-export default function FeatureCard({  gradient, image, github, link }) {
+export default function FeatureCard({ gradient, image, github, link }) {
 	return (
 		<div
 			className={cn(
@@ -58,7 +58,7 @@ export default function FeatureCard({  gradient, image, github, link }) {
 							<p className="text-center mx-auto">Demo</p>
 						</motion.div>
 					</Link> */}
-					<Link href={github}>
+					<Link href={github} target="_blank" rel="noopener noreferrer">
 						<motion.div
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.9 }}

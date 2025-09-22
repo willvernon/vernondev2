@@ -12,50 +12,52 @@ import bblgx from '@public/projects/bblgx.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import demo from '@public/projects/Demo.png'
 import genie from '@public/projects/genie-ai/Genie-AI.png'
+import draft from '@public/static/draft_success.png'
+import statTerm from '@public/projects/stat-term/hero.png'
 import TopChoice from '@components/projects/topchoice'
 
 export default function Dashboard() {
 	return (
 		<div className="mx-auto mb-16 flex max-w-4xl flex-col items-start justify-center">
-			<h1 className="mb-4 text-3xl font-bold tracking-tight text-whtie dark:text-white md:text-5xl">
+			<h1 className="mb-4 text-3xl font-bold tracking-tight text-white dark:text-white md:text-5xl">
 				Project Showcase
 			</h1>
 			<div className="mb-8">
 				<p className="mb-4 text-gray-400 dark:text-gray-400">
 					These are only a few projects of mine that show a few different
 					skills between them. I&apos;ll be adding more and more as i go
-					and have time to build case studies.
-					{/*<br /> Also Check out my&nbsp;
+					and have time to build case studies. *<br /> Also Check out
+					my&nbsp;
 					<Link
 						href="/blog"
 						className="text-gray-300 underline dark:text-gray-100"
 					>
-						blog series.
-					</Link> */}
+						Dev log showcasing my projects more detail.
+					</Link>
 				</p>
 			</div>
 			<div className="flex gap-6 flex-row w-full justify-center mt-6">
 				<TopChoice
 					gradient="from-[#E64D33] via-[#3B82F6] to-[#946ee7]"
-					image={genie}
-					vercel="https://www.genieaistudio.com/"
-					link="/projects/genie"
+					image={draft}
+					link="/projects/draft-success"
+					github="https://github.com/willvernon/draft_pick_success"
 				/>
 			</div>
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-6">
 				<FeatureCard
-					gradient="from-[#fcd0db] to-[#818CF8]"
-					image={bblgx}
-					link="/projects/bblgx-web"
-					github="https://github.com/willvernon/BigBisonLogistics"
+					gradient="from-[#3B82F6] to-[#1E40AF]"
+					image={statTerm}
+					link="/projects/stat-term"
+					github="https://github.com/willvernon/stat-term"
 				/>
 				{/* <FeatureCard
-					// vercel="https://custon-linen.vercel.app/"
-					gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
-					image={dc}
-					link="/projects/digitalcraftsmen"
-					github="https://github.com/willvernon/dc-website"
-				/> */}
+                    // vercel="https://custon-linen.vercel.app/"
+                    gradient="from-[#946ee7] via-[#3B82F6] to-[#33aaea]"
+                    image={dc}
+                    link="/projects/digitalcraftsmen"
+                    github="https://github.com/willvernon/dc-website"
+                /> */}
 				<FeatureCard
 					// vercel="https://sneakerx-three.vercel.app/"
 					gradient="from-[#818CF8] to-[#f07b45]"
@@ -73,6 +75,14 @@ export default function Dashboard() {
 				some of my projects on Github.
 			</p>
 			<div className="grid md:grid-cols-6  grid-cols-1">
+				<div className="col-span-3 my-3 ">
+					<SoloCard
+						header="Company Website"
+						link="/projects/bblgx-web"
+						tools="Built w/ NextJS, Figma, & Tailwind"
+						image={bblgx}
+					/>
+				</div>
 				<div className="col-span-3 my-3 ">
 					<SoloCard
 						header="Management App"
