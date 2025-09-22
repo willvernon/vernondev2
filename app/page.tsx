@@ -12,6 +12,7 @@ import NHASH from '@public/projects/NHASH.png'
 import sneakerx from '@public/projects/Sneakerx.png'
 import dennys from '@public/projects/dennys/hero.png'
 import genie from '@public/projects/genie-ai/Genie-AI.png'
+import statTerm from '@public/projects/stat-term/hero.png'
 
 import { motion } from 'framer-motion'
 import { Suspense } from 'react'
@@ -23,10 +24,10 @@ export default async function Page() {
 
 			<div className="flex gap-6 flex-wrap justify-center md:flex-row mt-12">
 				<PostCard
-					title="Showing a modern and professional approach to a website for a private security/logistics company."
-					vercel="/projects/bblgx-web"
-					gradient="from-[#fcd0db] to-[#818CF8]"
-					image={bblgx}
+					title="Modern TUI for sports stats"
+					gradient="from-[#fcd0db] to-[#1E40AF]"
+					image={statTerm}
+					vercel="/projects/stat-term"
 				/>
 				<PostCard
 					title="A full set of AI models setup for all in access to multiple tools and functions in one place."
@@ -62,8 +63,7 @@ export default async function Page() {
 			</div>
 
 			<div className="border-solid border-slate-600 border my-8 flex flex-col sm:flex-row space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 w-full"></div>
-			<div className="prose prose-neutral mt-12 dark:prose-invert mx-auto">
-			</div>
+			<div className="prose prose-neutral mt-12 dark:prose-invert mx-auto"></div>
 			{/*<div className="prose prose-neutral dark:prose-invert">
 				<h3>Here are my links</h3>
 			</div>
