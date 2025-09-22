@@ -14,7 +14,7 @@ export default function Uses() {
 				alt="/"
 				width={1546 / 2}
 				height={2164 / 2}
-				quality={100}
+				quality={70}
 				priority
 			/>
 
@@ -65,20 +65,10 @@ export default function Uses() {
 					Software
 				</h2>
 				<ul className="text-2xl leading-relaxed">
-				  <li>BitWarden</li>
-				  <li>Proton </li>
 				  <li>Brave</li>
 				  <li>Eagle</li>
-				  
 				  <li>Raycast</li>
 				  <li>Obsidian</li>
-				</ul>
-				<br />
-				<h2 id="other-tech" className="text-[#e64c33] font-bold">
-					Other Tech
-				</h2>
-				<ul className="text-2xl leading-relaxed">
-				  <li>Nothing Open Ear Headphones</li>
 				</ul>
 			</div>
 		</article>
